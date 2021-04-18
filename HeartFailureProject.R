@@ -17,6 +17,7 @@ filtered <- filter(heartFailure, diabetes == 1)
 filtered
 select(heartFailure, serum_creatinine, high_blood_pressure)
 arrange(heartFailure, platelets)
+arrange(heartFailure, desc(serum_sodium))
 
 
 plot(serum_creatinine~smoking, data = heartFailure)
