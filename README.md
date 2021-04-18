@@ -2,6 +2,6 @@
 
 Team Name: The Cool Data Scientists
 
-Group: Sneha Jaikumar, Sarthi Patil
+Group: Sneha Jaikumar, Sarthi Patil, Graham Caron
 
 Our heart failure prediction dataset consists of 12 features that can be analyzed to predict mortality by heart failure so patients can receive proper care early on.
