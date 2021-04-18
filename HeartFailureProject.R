@@ -27,6 +27,6 @@ plot(creatinine_phosphokinase~DEATH_EVENT, data = heartFailure)
 plot(heartFailure$age, heartFailure$platelets)
 model.lm <- lm(platelets~age, data = heartFailure)
 plot(model.lm, which = 1:2)
-     #Plot of simple linear regression model between the platelets and age variables in the dataset. The Q-Q plot shows the residuals are close to the line of normality, but the first plot shows that many of the residuals are far from zero.
+     #Plot of regression model between platelets and age. The Q-Q plot shows the residuals are close to the line of normality, but the first plot shows that many of the residuals are far from zero.
   
 
