@@ -1,6 +1,6 @@
 # The Cool Data Scientists
 # Heart Disease Dataset
-# Members: Sneha Jaikumar
+# Members: Sneha Jaikumar, Sarthi Patil
 
 install.packages("tidyverse")
 library(tidyverse)
