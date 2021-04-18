@@ -23,6 +23,7 @@ plot(serum_creatinine~smoking, data = heartFailure)
 plot(ejection_fraction~smoking, data = heartFailure)
 plot(creatinine_phosphokinase~high_blood_pressure, data = heartFailure)
 plot(creatinine_phosphokinase~DEATH_EVENT, data = heartFailure)
+plot(serum_creatinine~ejection_fraction, data = heartFailure)
 
 plot(heartFailure$age, heartFailure$platelets)
 model.lm <- lm(platelets~age, data = heartFailure)
